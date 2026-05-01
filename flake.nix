@@ -23,7 +23,6 @@
       shellHook = ''
         echo "Entering the development environment!"
         hugo version
-        npm install
       '';
     };
   };
