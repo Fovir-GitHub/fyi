@@ -33,8 +33,13 @@ main:
     weight: 7
     params:
       type: search
-  - name: GitHub
+  - name: Codeberg
+    url: "https://codeberg.org/Fovir"
     weight: 8
+    params:
+      icon: codeberg
+  - name: GitHub
+    weight: 9
     url: "https://github.com/Fovir-GitHub"
     params:
       icon: github
