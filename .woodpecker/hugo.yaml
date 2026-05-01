@@ -1,0 +1,36 @@
+when:
+  branch:
+    exclude: pages
+  event: [push, pull_request]
+
+clone:
+  git:
+    image: woodpeckerci/plugin-git
+    settings:
+      recursive: true
+
+steps:
+  build:
+    image: hugomods/hugo:exts
+    commands:
+      - hugo --minify
+
+  publish:
+    image: bitnami/git
+    environment:
+      HUGO_OUTPUT: public
+      CODEBERG_TOKEN:
+        from_secret: codeberg_token
+      MAIL:
+        from_secret: mail
+    commands: |
+      git config --global user.email "$MAIL"
+      git config --global user.name "Woodpecker CI"
+      if [ -f .domains ]; then cp .domains $HUGO_OUTPUT/.domains; fi
+      cd $HUGO_OUTPUT
+      git init
+      git checkout -b pages
+      git add .
+      git commit -m "ci: deploy $(date +'%Y-%m-%d')"
+      git remote add origin https://woodpecker:$CODEBERG_TOKEN@codeberg.org/${CI_REPO}.git
+      git push --force origin pages
