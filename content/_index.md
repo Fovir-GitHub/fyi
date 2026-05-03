@@ -44,6 +44,13 @@ layout: hextra-home
     link="https://codeberg.org/Fovir/nixos"
     icon="nix"
   >}}
+  {{< hextra/feature-card
+    title="Fovir/fyi"
+    subtitle="Fovir's Home"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
+    link="https://codeberg.org/Fovir/fyi"
+    icon="hugo"
+  >}}
 {{< /hextra/feature-grid >}}
 <!-- prettier-ignore-end -->
 
