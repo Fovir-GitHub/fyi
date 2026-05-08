@@ -58,3 +58,7 @@ Feed back function is linear over $\mathbb{F}_2$
 ### Period
 
 The maximum period for an $n$-bit register is $2^n - 1$
+
+## Nonlinear Shift Registers (NSFR)
+
+Feed back function is nonlinear (with high degree).
