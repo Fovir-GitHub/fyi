@@ -28,7 +28,7 @@ Obscurity is like _hidden_, while security means sharing or delivering safely.
 - Plaintext ($P$): The original message or data
 - Encryption ($E$): Plaintext → Ciphertext
 - Cryptographic Key ($K$): Secret key
-- Cipher: Algorithm that transforms the message
+- Cipher: Algorithm that transforms the message into ciphertext
 - Ciphertext ($C$): Encrypted messages
 - Decryption ($D$): Ciphertext → Plaintext
 
