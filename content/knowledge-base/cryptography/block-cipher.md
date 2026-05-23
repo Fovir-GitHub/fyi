@@ -17,7 +17,7 @@ Although a block cipher is not an encryption scheme, some terminology used is th
 - **Chosen-plaintext Attack:** Attacker can query $F_k()$
 - **Chosen-ciphertext Attack:** Attacker can query $F_k()$ and $F_k^{-1}()$
 
-## Process
+## Procedure
 
 Plaintext is encrypted one block at a time, and ciphertext is decrypted one block at a time.
 

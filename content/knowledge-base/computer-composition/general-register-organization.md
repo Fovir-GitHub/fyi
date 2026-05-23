@@ -69,7 +69,7 @@ weight: 8
 - **Instruction queue:** Used to store prefetched instructions and input it to EU.
 - **Bus control logic**
 
-### Process
+### Procedure
 
 ```mermaid
 graph LR

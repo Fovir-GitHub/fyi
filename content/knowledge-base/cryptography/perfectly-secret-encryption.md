@@ -76,7 +76,7 @@ $$
 
 ## One-Time Pad (OTP)
 
-### Process
+### Procedure
 
 - $\mathcal{M} = \{0, 1\}^\ell$
 - $Gen$: Choose a uniform key $k \in \{0,1\}^\ell$
