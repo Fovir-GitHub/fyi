@@ -18,7 +18,7 @@ main:
       type: link
       icon: mail
   - name: Fediverse
-    url: "https://social.yzlab.eu.org/@fovir"
+    url: "https://social.fovir.fyi/@fovir"
     parent: contact
     params:
       type: link
@@ -60,7 +60,7 @@ sidebar:
       type: link
       icon: mail
   - name: Fediverse
-    url: "https://social.yzlab.eu.org/@fovir"
+    url: "https://social.fovir.fyi/@fovir"
     params:
       type: link
       icon: globe
