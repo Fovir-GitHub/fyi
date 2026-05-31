@@ -30,12 +30,7 @@
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       <guid>{{ .Permalink }}</guid>
       <description>
-        {{ $img := (.Resources.ByType "image").GetMatch "*featured*" }}
-        {{ with $img }}
-        {{ $img := .Resize "640x" }}
-        {{ printf "<![CDATA[<img src=\"%s\" width=\"%d\" height=\"%d\"/>]]>" $img.Permalink $img.Width $img.Height | safeHTML }}
-        {{ end }}
-        {{ .Content | html }}
+        {{ .Description | html }}
       </description>
     </item>
     {{ end }}
