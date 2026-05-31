@@ -3,6 +3,7 @@
 date: 2026-05-21
 title: Block Cipher
 weight: 11
+description: Note of block cipher.
 ---
 
 ## Definition

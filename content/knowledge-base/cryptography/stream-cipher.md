@@ -3,6 +3,7 @@
 date: 2026-05-07
 title: Stream Cipher
 weight: 9
+description: Introduction of stream cipher.
 ---
 
 ## Binary Additive Stream Cipher

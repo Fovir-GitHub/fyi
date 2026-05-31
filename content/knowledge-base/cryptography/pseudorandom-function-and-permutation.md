@@ -3,6 +3,7 @@
 date: 2026-05-21
 title: Pseudorandom Function and Permutation
 weight: 10
+description: Concept of pseudorandom function and permutation (PRF and PRP).
 ---
 
 Let $\text{Func}_n$ be all functions mapping $\{0,1\}^n$ to $\{0,1\}^n$, and $\left| \text{Func}_n \right| = 2^{n \cdot 2^n}$.

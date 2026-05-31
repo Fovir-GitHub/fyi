@@ -3,6 +3,7 @@
 date: 2026-05-07
 title: Pseudorandomness
 weight: 8
+description: Introduction of pseudorandomness.
 ---
 
 ## Definition

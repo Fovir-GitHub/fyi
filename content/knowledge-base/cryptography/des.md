@@ -3,6 +3,7 @@
 date: 2026-05-21
 title: DES
 weight: 12
+description: Introduction of DES encryption.
 ---
 
 ## Introduction
