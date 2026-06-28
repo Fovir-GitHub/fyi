@@ -11,12 +11,6 @@ main:
     params:
       icon: link
       type: link
-  - name: Email
-    url: "mailto:fovir@disroot.org"
-    parent: contact
-    params:
-      type: link
-      icon: mail
   - name: Fediverse
     url: "https://social.fovir.fyi/@fovir"
     parent: contact
@@ -54,11 +48,6 @@ sidebar:
     params:
       type: separator
     weight: 1
-  - name: Email
-    url: "mailto:fovir@disroot.org"
-    params:
-      type: link
-      icon: mail
   - name: Fediverse
     url: "https://social.fovir.fyi/@fovir"
     params:
