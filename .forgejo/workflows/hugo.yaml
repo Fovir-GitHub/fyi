@@ -1,0 +1,38 @@
+name: Deploy Hugo site to Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Build with Hugo
+        uses: docker://hugomods/hugo:exts
+        with:
+          args: hugo --minify
+
+      - name: Copy custom domain
+        run: |
+          if [ -f .domains ]; then
+            cp .domains public/.domains
+          fi
+
+      - name: Deploy to Pages branch
+        run: |
+          git config --global user.email "forgejo@git.universtar.org"
+          git config --global user.name "Forgejo"
+          cd public
+          git init
+          git checkout -b pages
+          git add .
+          git commit -m "deploy: $(date +'%Y-%m-%d')"
+          git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@git.universtar.org/${{ forgejo.repository }}.git
+          git push --force origin pages
