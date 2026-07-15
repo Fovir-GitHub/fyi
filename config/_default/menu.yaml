@@ -5,21 +5,9 @@ main:
   - name: Blog
     pageRef: /blog
     weight: 2
-  - identifier: contact
-    name: Contact
-    weight: 3
-    params:
-      icon: link
-      type: link
-  - name: Fediverse
-    url: "https://social.fovir.fyi/@fovir"
-    parent: contact
-    params:
-      type: link
-      icon: globe
   - name: Matrix
     url: "https://matrix.to/#/@fovir:matrix.fovir.fyi"
-    parent: contact
+    weight: 3
     params:
       type: link
       icon: chat
@@ -42,14 +30,3 @@ main:
     weight: 10
     params:
       icon: rss
-sidebar:
-  - identifier: contact
-    name: Contact
-    params:
-      type: separator
-    weight: 1
-  - name: Fediverse
-    url: "https://social.fovir.fyi/@fovir"
-    params:
-      type: link
-      icon: globe
