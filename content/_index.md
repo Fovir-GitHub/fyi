@@ -31,6 +31,13 @@ layout: hextra-home
 <!-- prettier-ignore-start -->
 {{< hextra/feature-grid style="margin: 14px 0" >}}
   {{< hextra/feature-card
+    title="Fovir-GitHub/injm"
+    subtitle=" A CLI tool that injects content into marked regions in source files. "
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
+    link="https://github.com/Fovir-GitHub/injm"
+    icon="rust"
+  >}}
+  {{< hextra/feature-card
     title="Fovir/mytrix"
     subtitle="A personal assistant bot for Matrix."
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
@@ -73,11 +80,11 @@ layout: hextra-home
     icon="nix"
   >}}
   {{< hextra/feature-card
-    title="0x2E/fusion"
-    subtitle="A lightweight, self-hosted friendly RSS reader"
+    title="yonzilch/arata"
+    subtitle="A modern and minimalistic blog theme powered by Gleam and Lustre"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
-    link="https://github.com/0x2E/fusion"
-    icon="golang"
+    link="https://github.com/yonzilch/arata"
+    icon="gleam"
   >}}
 {{< /hextra/feature-grid >}}
 <!-- prettier-ignore-end -->
