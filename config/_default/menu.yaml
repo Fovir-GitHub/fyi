@@ -22,7 +22,7 @@ main:
       icon: codeberg
   - name: GitHub
     weight: 9
-    url: "https://github.com/Fovir-GitHub"
+    url: "https://github.com/FovirDev"
     params:
       icon: github
   - name: RSS

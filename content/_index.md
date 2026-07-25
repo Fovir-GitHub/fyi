@@ -31,10 +31,10 @@ layout: hextra-home
 <!-- prettier-ignore-start -->
 {{< hextra/feature-grid style="margin: 14px 0" >}}
   {{< hextra/feature-card
-    title="Fovir-GitHub/injm"
+    title="FovirDev/injm"
     subtitle=" A CLI tool that injects content into marked regions in source files. "
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
-    link="https://github.com/Fovir-GitHub/injm"
+    link="https://github.com/FovirDev/injm"
     icon="rust"
   >}}
   {{< hextra/feature-card
