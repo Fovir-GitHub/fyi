@@ -80,6 +80,13 @@ layout: hextra-home
     icon="nix"
   >}}
   {{< hextra/feature-card
+    title="vexgo-org/vexgo"
+    subtitle="VexGo is a lightweight, self-hosted blog content management system designed for developers and writers who value simplicity, performance, and control."
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
+    link="https://github.com/vexgo-org/vexgo"
+    icon="golang"
+  >}}
+  {{< hextra/feature-card
     title="yonzilch/arata"
     subtitle="A modern and minimalistic blog theme powered by Gleam and Lustre"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
